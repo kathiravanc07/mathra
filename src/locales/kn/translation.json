@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "legal": {
+      "terms":      "ನಿಯಮಗಳು & ಷರತ್ತುಗಳು",
+      "disclaimer": "ಹೊಣೆಗಾರಿಕೆ ನಿರಾಕರಣೆ",
+      "privacy":    "ಗೌಪ್ಯತಾ ನೀತಿ",
+      "copyright":  "ಕೃತಿಸ್ವಾಮ್ಯ ಸೂಚನೆ",
+      "notice":     "ಕಾನೂನು ಸೂಚನೆ"
+    }
+  },
+  "contact": {
+    "eyebrow": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "title":   "ಸಂಪರ್ಕಿಸಿ",
+    "sub":     "WhatsApp, ಇಮೇಲ್ ಅಥವಾ ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಿ.",
+    "phone":   { "label": "ಫೋನ್ / WhatsApp", "value": "+91 84080 27242"                          },
+    "email":   { "label": "ಇಮೇಲ್",           "value": "manthraprathibhimbam@gmail.com"           },
+    "address": { "label": "ವಿಳಾಸ",            "value": "E-4, ಅಂಬುಜ ಸ್ಟಾಫ್ ಕ್ವಾರ್ಟರ್ಸ್, ಅಪ್ಪರ್ವಾಹಿ – 442908, ಚಂದ್ರಪುರ ಜಿಲ್ಲೆ, ಮಹಾರಾಷ್ಟ್ರ" },
+    "upi":     { "label": "UPI / BharatPe",   "value": "+91 84080 27242"                          },
+    "social":  { "label": "ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ",  "value": "Instagram & Facebook — ಶೀಘ್ರದಲ್ಲಿ"    },
+    "bank": {
+      "title":   "ಬ್ಯಾಂಕ್ ವಿವರಗಳು",
+      "name":    "ಬ್ಯಾಂಕ್ ಆಫ್ ಇಂಡಿಯಾ — ಅಪ್ಪರ್ವಾಹಿ ಶಾಖೆ",
+      "ifsc":    { "label": "IFSC ಕೋಡ್",    "value": "BKID0009638"     },
+      "account": { "label": "ಖಾತೆ ಸಂಖ್ಯೆ",  "value": "963820110000201" },
+      "upi":     { "label": "UPI",           "value": "+91 84080 27242" }
+    }
+  }
+}

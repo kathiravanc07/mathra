@@ -1,0 +1,51 @@
+// ── Brand Colors
+$color-maroon:        #7B1F1F;
+$color-maroon-dark:   #4A0E0E;
+$color-terra:         #C4552A;
+$color-saffron:       #E07820;
+$color-gold:          #C9A84C;
+$color-navy:          #1B2E6B;
+$color-navy-light:    #2A4AB0;
+$color-cream:         #FDF8F2;
+$color-warm:          #FAF3E8;
+$color-text:          #2C1A0E;
+$color-muted:         #7A6050;
+$color-border:        rgba(196, 85, 42, 0.12);
+
+
+// ── Typography
+$font-body:           'Raleway', sans-serif;
+$font-display:        'Cinzel', serif;
+
+$font-size-xs:        0.68rem;
+$font-size-sm:        0.82rem;
+$font-size-base:      1rem;
+$font-size-lg:        1.15rem;
+
+// ── Spacing
+$section-padding-y:   5rem;
+$section-padding-x:   2rem;
+$container-max:       1240px;
+
+// ── Border Radius
+$radius-sm:   6px;
+$radius-md:   12px;
+$radius-lg:   18px;
+$radius-xl:   24px;
+$radius-full: 100px;
+
+// ── Breakpoints
+$bp-sm:   480px;
+$bp-md:   768px;
+$bp-lg:   1024px;
+$bp-xl:   1240px;
+
+// ── Transitions
+$transition-base:  all 0.25s ease;
+$transition-fast:  all 0.15s ease;
+$transition-slow:  all 0.4s ease;
+
+// ── Z-index
+$z-navbar:   1000;
+$z-dropdown: 1100;
+$z-modal:    2000;

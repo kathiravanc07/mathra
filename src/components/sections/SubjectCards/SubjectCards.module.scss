@@ -1,0 +1,30 @@
+// ── Subjects Section
+.subjects { background:$color-cream; padding:5rem 2rem;
+
+  &__container { max-width:1240px; margin:auto; }
+
+  &__header { text-align:center; margin-bottom:3.5rem; }
+  &__eyebrow { display:inline-block; font-size:0.68rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:$color-terra; background:rgba($color-terra,0.08); padding:0.35rem 1rem; border-radius:100px; margin-bottom:1rem; }
+  &__title { font-family:$font-display; font-size:clamp(1.6rem,3vw,2.4rem); font-weight:700; color:$color-maroon; margin-bottom:0.6rem; }
+  &__sub { font-size:0.95rem; color:$color-muted; max-width:560px; margin:0 auto; line-height:1.75; font-weight:400; }
+  &__divider { width:50px; height:3px; background:linear-gradient(90deg,$color-terra,$color-gold); margin:1rem auto 0; border-radius:2px; }
+
+  &__grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem;
+    @media (max-width:1024px) { grid-template-columns:repeat(3,1fr); }
+    @media (max-width:768px)  { grid-template-columns:repeat(2,1fr); }
+    @media (max-width:480px)  { grid-template-columns:1fr; }
+  }
+
+  &__card { background:#fff; border-radius:14px; padding:1.6rem 1.3rem; text-align:center; border:1px solid rgba($color-terra,0.1); box-shadow:0 2px 12px rgba(0,0,0,0.05); transition:all 0.3s; cursor:default;
+    &:hover { transform:translateY(-5px); box-shadow:0 12px 35px rgba($color-terra,0.15); border-color:$color-terra; }
+  }
+
+  &__icon { width:58px; height:58px; color:$color-terra; display:flex; align-items:center; justify-content:center; margin:0 auto 1rem; padding:15px; background:rgba($color-terra,0.08); border-radius:14px; font-size:1.6rem; transition:background-color 0.3s, color 0.3s;
+    svg { max-width:100%; max-height:100%; }
+  }
+
+  &__name { font-family:$font-display; font-size:1.25rem; font-weight:600; color:$color-maroon; margin-bottom:0.35rem; line-height:1.2; }
+  &__desc { font-size:1rem; font-weight:500; color:$color-muted; line-height:1.6; }
+}
+
+.subjects__card:hover .subjects__icon { background-color:$color-maroon; color:#fff; }

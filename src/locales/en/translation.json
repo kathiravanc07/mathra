@@ -1,0 +1,172 @@
+{
+    "brand": {
+      "name":    "Manthra Prathibhimbam",
+      "tagline": "Spiritual Education"
+    },
+    "nav": {
+      "home":     "Home",
+      "subjects": "Subjects",
+      "courses":  "Courses",
+      "about":    "About",
+      "news":     "News",
+      "gallery":  "Gallery",
+      "contact":  "Contact Us"
+    },
+    "hero": {
+      "badge":       "Globally Renowned Spiritual Education",
+      "title_line1": "Manthra",
+      "title_line2": "Prathibhimbam",
+      "description": "Guiding and inspiring learners through online and offline spiritual education. Our expert mentors bring ancient wisdom traditions of Sanathana Dharma to a global community of devoted chanters.",
+      "cta_primary": "Explore Courses",
+      "cta_secondary": "Learn More",
+      "card_tagline": "Come, learn, chant, and grow",
+      "card_cta": "Join Now",
+      "stat_subjects_value": "12+",
+      "stat_subjects_label": "Subjects",
+      "stat_global_value": "🌍",
+      "stat_global_label": "Global Reach",
+      "stat_modes_value": "2",
+      "stat_modes_label": "Modes: Online & Offline",
+      "card_subjects": [
+        "Vedams & Ithihasams",
+        "Puranams & Sahasranamams",
+        "Narayaneeyam & Stotrams",
+        "Chandi Saptashati (Devi Mahatmyam)",
+        "Sree Vidya & its Practices",
+        "Samskritham & Foreign Languages"
+      ]
+    },
+    "subjects": {
+      "section_eyebrow": "What We Teach",
+      "section_title":   "Areas of Expertise",
+      "section_sub":     "Our eminent and well-trained mentors guide you through these sacred disciplines with depth, devotion and clarity.",
+      "vedams":        { "name": "Vedams",             "desc": "The foundational sacred texts of Sanathana Dharma" },
+      "ithihasams":    { "name": "Ithihasams",          "desc": "Ramayana, Mahabharata and epic narratives" },
+      "puranams":      { "name": "Puranams",            "desc": "Ancient mythological and spiritual chronicles" },
+      "sahasranamams": { "name": "Sahasranamams",       "desc": "Thousand-name hymns of deities" },
+      "stotrams":      { "name": "Stotrams & Shlokams", "desc": "Sacred verses, prayers and hymns" },
+      "narayaneeyam":  { "name": "Narayaneeyam",        "desc": "Melpathur's celebrated Sanskrit poem" },
+      "chandi":        { "name": "Chandi Saptashati",   "desc": "Devi Mahatmyam — glory of the Divine Mother" },
+      "sreevidya":     { "name": "Sree Vidya",          "desc": "Sacred Shakta Tantra practices & Ashtapathi" },
+      "samskritham":   { "name": "Samskritham",         "desc": "Sanskrit & other foreign languages" },
+      "chanting":      { "name": "Chanting Nuances",    "desc": "Correct pronunciation, intonation & rhythm" },
+      "ashtapathi":    { "name": "Ashtapathi & Bhajans","desc": "Devotional songs & group chanting" },
+      "bhajans":       { "name": "Foreign Languages",   "desc": "Languages alongside Samskritham" }
+    },
+    "about": {
+      "eyebrow": "Who We Are",
+      "title":   "About Manthra Prathibhimbam",
+      "p1": "We are delighted to introduce Manthra Prathibhimbam — a globally renowned group dedicated to guiding and inspiring learners through online and offline spiritual education.",
+      "p2": "Our eminent and well-trained mentors possess deep expertise in the sacred scriptures and ancient wisdom traditions of Sanathana Dharma.",
+      "p3": "In addition to online learning, we conduct offline events in various cities and organize sponsored chartered programs. Participants get opportunities to perform and even become lead chanters in these events.",
+      "tagline": "Come, learn, chant, and grow with Manthra Prathibhimbam",
+      "badge_global_title": "Global Community",
+      "badge_global_sub":   "Learners worldwide",
+      "badge_mode_title":   "Online & Offline",
+      "badge_mode_sub":     "Flexible learning",
+      "checklist": {
+        "mentors":   "Expert Mentors",
+        "subjects":  "12+ Subjects",
+        "online":    "Online Classes",
+        "offline":   "Offline Events",
+        "chanter":   "Lead Chanter Opportunity",
+        "community": "Global Community"
+      }
+    },
+    "logo_meaning": {
+      "eyebrow":       "Symbolism",
+      "title":         "Logo & Its Meaning",
+      "logo_caption":  "Manthra Prathibhimbam",
+      "logo_sub":      "Seven-Petal Lotus · Seven Chakras",
+      "lotus": {
+        "title": "The Seven-Petal Lotus",
+        "body":  "A seven-petal lotus holds profound spiritual significance in Hinduism and Buddhism — representing spiritual awakening, purity, and the journey to enlightenment."
+      },
+      "manthra": {
+        "title": "Manthra — The Sacred Utterance",
+        "body":  "Manthra (मन्त्रम्) is a sacred utterance, a numinous sound — a syllable, word or group of words believed to have religious, magical or spiritual powers."
+      },
+      "prathibhimbam": {
+        "title": "Prathibhimbam — The Reflection",
+        "body":  "Prathibhimba (प्रतिबिम्ब) means reflection or image. The pratibhimba vāda in Advaita Vedanta says there is only one real witnessing Consciousness, although there are many jīva-s."
+      },
+      "maroon": {
+        "title": "Why Manthra in Maroon?",
+        "body":  "Maroon symbolizes strength, elegance, and sophistication — evoking richness, depth, and passion. Associated with wisdom, calm, and spirituality."
+      },
+      "blue": {
+        "title": "Why Prathibhimbam in Blue?",
+        "body":  "Blue is infinity. The sky is blue. The sea is blue. The flame is blue. The earth from above is blue. Blue conveys calmness, trust, wisdom, and boundlessness."
+      }
+    },
+    "courses": {
+      "eyebrow": "Learning Options",
+      "title":   "Our Courses",
+      "sub":     "Choose how you want to learn — from anywhere in the world online, or join us in person at events across cities.",
+      "online": {
+        "title":   "Online Courses",
+        "tagline": "Learn from anywhere in the world",
+        "body":    "Join our vibrant online learning community and receive guidance from expert mentors across all major spiritual texts, manthra chanting and Sanskrit pronunciation.",
+        "note":    "Course details available inside the group under respective sub-groups.",
+        "cta":     "Join & Inquire"
+      },
+      "offline": {
+        "title":   "Offline Events",
+        "tagline": "In-person events across cities",
+        "body":    "We conduct offline events in various cities and organize sponsored chartered programs. Participants get opportunities to perform and even become lead chanters.",
+        "note":    "Watch this space for upcoming events near you.",
+        "cta":     "Get Notified"
+      }
+    },
+    "stats": {
+      "subjects": { "value": "12+", "label": "Subjects Taught"   },
+      "global":   { "value": "🌍",  "label": "Global Learners"   },
+      "modes":    { "value": "2",   "label": "Modes of Learning" },
+      "mentors":  { "value": "✦",   "label": "Expert Mentors"    }
+    },
+    "gallery": {
+      "eyebrow":    "Moments",
+      "title":      "Gallery",
+      "sub":        "Glimpses from our events, programs and learning sessions.",
+      "coming_soon": "Photo Coming Soon",
+      "note":       "Gallery photos will be added soon. Check back for moments from our events & programs."
+    },
+    "news": {
+      "eyebrow": "Updates",
+      "title":   "News & Announcements",
+      "sub":     "Stay updated with our latest programs, events and future plans.",
+      "cards": {
+        "current":  { "tag": "Current Plans",  "title": "Online Batch — Currently Running",       "body": "Our online spiritual education sessions are currently running. Join the group to access all course details in respective sub-groups.", "date": "📅 Ongoing" },
+        "upcoming": { "tag": "Upcoming",       "title": "Offline Events Across Cities",           "body": "We are planning offline events and sponsored chartered programs across multiple cities. Participants may perform as lead chanters.",       "date": "📅 Announced Soon" },
+        "future":   { "tag": "Future Plans",   "title": "Expanding Curriculum & Languages",       "body": "We aim to expand to include more foreign languages alongside Samskritham and deepen our Sree Vidya practices.",                          "date": "📅 Coming Soon" }
+      }
+    },
+    "contact": {
+      "eyebrow": "Reach Us",
+      "title":   "Contact Us",
+      "sub":     "We'd love to hear from you. Reach out via WhatsApp, email or visit us.",
+      "phone":   { "label": "Phone / WhatsApp", "value": "+91 84080 27242"                        },
+      "email":   { "label": "Email",            "value": "manthraprathibhimbam@gmail.com"         },
+      "address": { "label": "Address",          "value": "E-4, Ambuja Staff Quarters, Upparwahi – 442908, Chandrapur District, Maharashtra" },
+      "upi":     { "label": "UPI / BharatPe",   "value": "+91 84080 27242"                        },
+      "social":  { "label": "Social Media",     "value": "Instagram & Facebook — coming soon"     },
+      "bank": {
+        "title":   "Bank Details",
+        "name":    "Bank of India — Upparwahi Branch",
+        "ifsc":    { "label": "IFSC Code",   "value": "BKID0009638"        },
+        "account": { "label": "Account No.", "value": "963820110000201"    },
+        "upi":     { "label": "UPI",         "value": "+91 84080 27242"    }
+      }
+    },
+    "footer": {
+      "tagline":   "Come, learn, chant, and grow",
+      "copyright": "© 2025 Manthra Prathibhimbam",
+      "legal": {
+        "terms":      "Terms & Conditions",
+        "disclaimer": "Disclaimer",
+        "privacy":    "Privacy Policy",
+        "copyright":  "Copyright Notice",
+        "notice":     "Legal Notice"
+      }
+    }
+  }

@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+body {font-family:$font-body; color:$color-text; font-size:$font-size-base; line-height:1.6; -webkit-font-smoothing:antialiased;}
+
+h1, h2, h3, h4, h5, h6 {font-family:$font-display; font-weight:700; line-height:1.2; color:$color-maroon;}
+
+p {margin:0 0 1rem; line-height:1.75;}
+
+a {color:$color-maroon; text-decoration:none; transition:$transition-base;}
+
+strong {font-weight:700;}
+
+em {font-style:italic;}

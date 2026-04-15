@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "legal": {
+      "terms":      "നിബന്ധനകളും വ്യവസ്ഥകളും",
+      "disclaimer": "നിരാകരണം",
+      "privacy":    "സ്വകാര്യതാ നയം",
+      "copyright":  "പകർപ്പവകാശ അറിയിപ്പ്",
+      "notice":     "നിയമ അറിയിപ്പ്"
+    }
+  },
+  "contact": {
+    "eyebrow": "ഞങ്ങളെ ബന്ധപ്പെടുക",
+    "title":   "ബന്ധപ്പെടുക",
+    "sub":     "WhatsApp, ഇമെയിൽ അല്ലെങ്കിൽ നേരിട്ട് ബന്ധപ്പെടുക.",
+    "phone":   { "label": "ഫോൺ / WhatsApp", "value": "+91 84080 27242"                            },
+    "email":   { "label": "ഇമെയിൽ",         "value": "manthraprathibhimbam@gmail.com"             },
+    "address": { "label": "വിലാസം",          "value": "E-4, അംബുജ സ്റ്റാഫ് ക്വാർട്ടേഴ്സ്, ഉപ്പർവാഹി – 442908, ചന്ദ്രപൂർ ജില്ല, മഹാരാഷ്ട്ര" },
+    "upi":     { "label": "UPI / BharatPe",  "value": "+91 84080 27242"                            },
+    "social":  { "label": "സോഷ്യൽ മീഡിയ",  "value": "Instagram & Facebook — ഉടൻ വരുന്നു"        },
+    "bank": {
+      "title":   "ബാങ്ക് വിവരങ്ങൾ",
+      "name":    "ബാങ്ക് ഓഫ് ഇന്ത്യ — ഉപ്പർവാഹി ബ്രാഞ്ച്",
+      "ifsc":    { "label": "IFSC കോഡ്",    "value": "BKID0009638"     },
+      "account": { "label": "അക്കൗണ്ട് നം.", "value": "963820110000201" },
+      "upi":     { "label": "UPI",           "value": "+91 84080 27242" }
+    }
+  }
+}

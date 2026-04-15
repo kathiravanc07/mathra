@@ -1,0 +1,50 @@
+// ── Hero Section
+.hero { padding-top:70px; background:linear-gradient(135deg,#4A0E0E 0%,#7B1F1F 30%,#C4552A 65%,#E07820 100%); position:relative; overflow:hidden; min-height:100vh; display:flex; align-items:center;
+
+  &__circle1 { position:absolute; border-radius:50%; pointer-events:none; width:600px; height:600px; background:#fff; opacity:0.08; top:-200px; right:-100px; }
+  &__circle2 { position:absolute; border-radius:50%; pointer-events:none; width:350px; height:350px; background:#fff; opacity:0.08; bottom:-100px; left:-80px; }
+  &__circle3 { position:absolute; border-radius:50%; pointer-events:none; width:200px; height:200px; background:$color-gold; opacity:0.08; top:50%; left:40%; transform:translate(-50%,-50%); }
+
+  &__container { width:100%; max-width:1240px; margin:auto; padding:5rem 2rem 4rem; display:grid; grid-template-columns:1fr 420px; gap:4rem; align-items:center; position:relative; z-index:2;
+    @media (max-width:968px) { grid-template-columns:1fr; gap:2.5rem; padding:3rem 1.5rem; }
+  }
+
+  &__content {}
+
+  &__badge { display:inline-flex; align-items:center; gap:0.5rem; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); backdrop-filter:blur(10px); color:#fff; padding:0.35rem 1rem; border-radius:100px; font-size:0.68rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:1.5rem; width:fit-content;
+    &::before { content:''; width:6px; height:6px; border-radius:50%; background:#FFD700; flex-shrink:0; }
+  }
+
+  &__title { font-family:$font-display; font-size:clamp(2rem,4.5vw,3.6rem); font-weight:700; color:#fff; line-height:1.1; margin:0 0 1.2rem; letter-spacing:0.02em; }
+  &__title-line2 { color:#FFD700; display:block; }
+  &__desc { font-size:1rem; font-weight:400; color:rgba(255,255,255,0.82); line-height:1.85; max-width:500px; margin:0 0 2.5rem; }
+  &__btns { display:flex; gap:1rem; flex-wrap:wrap; }
+
+  &__btnprimary { padding:0.85rem 2.2rem; background:#fff; color:$color-maroon; text-decoration:none; border-radius:10px; font-weight:700; font-size:0.82rem; letter-spacing:0.05em; transition:all 0.25s; box-shadow:0 4px 20px rgba(0,0,0,0.15);
+    &:hover { transform:translateY(-2px); box-shadow:0 8px 30px rgba(0,0,0,0.2); }
+  }
+  &__btnoutline { padding:0.85rem 2.2rem; background:transparent; color:#fff; text-decoration:none; border-radius:10px; font-weight:600; font-size:0.82rem; letter-spacing:0.05em; border:2px solid rgba(255,255,255,0.5); transition:all 0.25s;
+    &:hover { background:rgba(255,255,255,0.12); border-color:#fff; }
+  }
+
+  &__stats { display:flex; gap:2.5rem; margin-top:3rem; padding-top:2.5rem; border-top:1px solid rgba(255,255,255,0.2); }
+  &__stat { display:flex; flex-direction:column; align-items:center; }
+  &__statvalue { font-family:$font-display; font-size:1.9rem; font-weight:700; color:#FFD700; line-height:1; display:block; text-align:center;
+    svg { width:28px; height:28px; display:block; color:#FFD700; }
+  }
+  &__statlabel { font-size:0.7rem; font-weight:600; color:rgba(255,255,255,0.65); margin-top:0.25rem; text-transform:uppercase; letter-spacing:0.08em; text-align:center; }
+
+  &__card { background:#fff; border-radius:20px; padding:2rem; box-shadow:0 20px 60px rgba(0,0,0,0.25); }
+  &__cardheader { display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem; padding-bottom:1.5rem; border-bottom:1px solid #f0e8e0; }
+  &__cardlogo { width:60px; height:60px; border-radius:50%; border:2px solid $color-terra; flex-shrink:0; object-fit:contain; }
+  &__cardbrand { font-family:$font-display; font-size:0.9rem; font-weight:600; color:$color-maroon; line-height:1.2; }
+  &__cardtagline { font-size:0.68rem; font-weight:500; color:$color-muted; margin-top:0.2rem; }
+  &__cardlist { display:flex; flex-direction:column; gap:0.55rem; }
+  &__carditem { display:flex; align-items:center; gap:0.65rem; font-size:0.82rem; font-weight:500; color:$color-text; line-height:1.4; }
+  &__cardcheck { width:8px; height:8px; border-radius:50%; background:$color-terra; flex-shrink:0; }
+  &__cardcta { margin-top:1.5rem; display:block; width:100%; text-align:center; padding:0.8rem; background:linear-gradient(135deg,$color-terra,$color-maroon); color:#fff; border-radius:10px; font-weight:700; font-size:0.8rem; letter-spacing:0.05em; text-decoration:none; transition:all 0.2s;
+    &:hover { transform:translateY(-1px); box-shadow:0 6px 20px rgba($color-terra,0.4); }
+  }
+}
+
+.hero__carditem:nth-child(even) .hero__cardcheck { background:$color-navy; }

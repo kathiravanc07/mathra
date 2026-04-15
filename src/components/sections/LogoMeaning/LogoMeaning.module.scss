@@ -1,0 +1,47 @@
+// ── Logo Meaning Section
+.logo { background:$color-warm; padding:5rem 2rem;
+
+  &__container { max-width:1240px; margin:auto; }
+
+  &__header { text-align:center; margin-bottom:3.5rem; }
+  &__eyebrow { display:inline-block; font-size:0.68rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:$color-terra; background:rgba($color-terra,0.08); padding:0.35rem 1rem; border-radius:100px; margin-bottom:1rem; }
+  &__title { font-family:$font-display; font-size:clamp(1.6rem,3vw,2.4rem); font-weight:700; color:$color-maroon; margin-bottom:0; }
+  &__divider { width:50px; height:3px; background:linear-gradient(90deg,$color-terra,$color-gold); margin:1rem auto 0; border-radius:2px; }
+
+  &__wrap { display:grid; grid-template-columns:300px 1fr; gap:4rem; align-items:start;
+    @media (max-width:968px) { grid-template-columns:1fr; gap:2.5rem; }
+  }
+
+  &__logocol { text-align:center; position:sticky; top:90px;
+    @media (max-width:968px) { position:static; }
+  }
+  &__img { width:220px; height:220px; border-radius:50%; border:4px solid $color-terra; box-shadow:0 15px 50px rgba($color-terra,0.2); display:block; margin:0 auto; object-fit:contain; }
+  &__caption { font-family:$font-display; font-size:0.95rem; color:$color-maroon; margin-top:1rem; font-weight:600; }
+  &__sub { font-size:0.78rem; color:$color-muted; margin-top:0.3rem; }
+
+  &__cardscol { display:grid; gap:1rem; }
+
+  &__mcard { background:#fff; border-radius:14px; padding:1.5rem; border:1px solid rgba($color-terra,0.1); box-shadow:0 2px 12px rgba(0,0,0,0.04); transition:all 0.2s;
+    &:hover { box-shadow:0 6px 24px rgba($color-terra,0.1); border-color:rgba($color-terra,0.25); }
+  }
+  &__mcardheader { display:flex; align-items:center; gap:0.75rem; margin-bottom:0.8rem; }
+  &__mcardicon { width:38px; height:38px; border-radius:10px; background:linear-gradient(135deg,$color-terra,$color-maroon); display:flex; align-items:center; justify-content:center; color:#fff; flex-shrink:0; }
+  &__mcardtitle { font-family:$font-display; font-size:0.9rem; color:$color-maroon; font-weight:600; margin:0; }
+  &__mcardbody { font-size:0.88rem; line-height:1.85; color:#5a4030; font-weight:400; margin:0; }
+
+  &__colorrow { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:0.5rem;
+    @media (max-width:600px) { grid-template-columns:1fr; }
+  }
+
+  &__colorcard { padding:1.5rem; border-radius:14px; color:#fff;
+    &--maroon { background:linear-gradient(135deg,#4A0E0E,#C4552A); }
+    &--blue   { background:linear-gradient(135deg,#0d1a3e,$color-navy); }
+  }
+  &__colorhead { display:flex; align-items:center; gap:0.6rem; margin-bottom:0.8rem; }
+  &__swatch { width:24px; height:24px; border-radius:6px; border:2px solid rgba(255,255,255,0.4); flex-shrink:0; }
+  &__colortitle { font-family:$font-display; font-size:0.88rem; font-weight:600; color:#fff; margin:0; }
+  &__colorbody { font-size:0.82rem; line-height:1.75; color:rgba(255,255,255,0.88); font-weight:300; margin:0; }
+}
+
+.logo__colorcard--maroon .logo__swatch { background:#7B1F1F; }
+.logo__colorcard--blue   .logo__swatch { background:$color-navy; }

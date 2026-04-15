@@ -1,0 +1,22 @@
+@use '../abstracts' as *;
+
+// ── Swiper navigation arrows — lightbox theme ─────────────────────────────────
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+  background: rgba(255,255,255,0.12);
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  transition: background 0.2s;
+
+  &::after { font-size: 1rem; font-weight: 700; }
+  &:hover  { background: rgba(255,255,255,0.25); }
+}
+
+// Swiper global overrides
+.swiper {background-color:#f9f9f9;}
+
+.swiper-button-next, .swiper-button-prev {color:#fff !important;}
+
+.swiper-pagination-bullet-active {background:$color-maroon !important;}

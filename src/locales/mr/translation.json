@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "legal": {
+      "terms":      "अटी व शर्ती",
+      "disclaimer": "अस्वीकरण",
+      "privacy":    "गोपनीयता धोरण",
+      "copyright":  "कॉपीराइट सूचना",
+      "notice":     "कायदेशीर सूचना"
+    }
+  },
+  "contact": {
+    "eyebrow": "आमच्याशी संपर्क करा",
+    "title":   "संपर्क करा",
+    "sub":     "WhatsApp, ईमेल किंवा थेट संपर्क करा.",
+    "phone":   { "label": "फोन / WhatsApp", "value": "+91 84080 27242"                            },
+    "email":   { "label": "ईमेल",           "value": "manthraprathibhimbam@gmail.com"             },
+    "address": { "label": "पत्ता",          "value": "E-4, अंबुजा स्टाफ क्वार्टर्स, उपरवाही – 442908, चंद्रपूर जिल्हा, महाराष्ट्र" },
+    "upi":     { "label": "UPI / BharatPe", "value": "+91 84080 27242"                            },
+    "social":  { "label": "सोशल मीडिया",   "value": "Instagram & Facebook — लवकरच येत आहे"     },
+    "bank": {
+      "title":   "बँक तपशील",
+      "name":    "बँक ऑफ इंडिया — उपरवाही शाखा",
+      "ifsc":    { "label": "IFSC कोड",    "value": "BKID0009638"     },
+      "account": { "label": "खाते क्रमांक", "value": "963820110000201" },
+      "upi":     { "label": "UPI",          "value": "+91 84080 27242" }
+    }
+  }
+}

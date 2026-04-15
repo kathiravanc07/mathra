@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "legal": {
+      "terms":      "నిబంధనలు & షరతులు",
+      "disclaimer": "నిరాకరణ",
+      "privacy":    "గోప్యతా విధానం",
+      "copyright":  "కాపీరైట్ నోటీసు",
+      "notice":     "చట్టపరమైన నోటీసు"
+    }
+  },
+  "contact": {
+    "eyebrow": "మాకు చేరుకోండి",
+    "title":   "సంప్రదించండి",
+    "sub":     "WhatsApp, ఇమెయిల్ లేదా నేరుగా సంప్రదించండి.",
+    "phone":   { "label": "ఫోన్ / WhatsApp", "value": "+91 84080 27242"                          },
+    "email":   { "label": "ఇమెయిల్",         "value": "manthraprathibhimbam@gmail.com"           },
+    "address": { "label": "చిరునామా",         "value": "E-4, అంబుజా స్టాఫ్ క్వార్టర్స్, అప్పర్వాహి – 442908, చంద్రపూర్ జిల్లా, మహారాష్ట్ర" },
+    "upi":     { "label": "UPI / BharatPe",   "value": "+91 84080 27242"                          },
+    "social":  { "label": "సోషల్ మీడియా",    "value": "Instagram & Facebook — త్వరలో వస్తుంది"  },
+    "bank": {
+      "title":   "బ్యాంక్ వివరాలు",
+      "name":    "బ్యాంక్ ఆఫ్ ఇండియా — అప్పర్వాహి శాఖ",
+      "ifsc":    { "label": "IFSC కోడ్",    "value": "BKID0009638"     },
+      "account": { "label": "ఖాతా నంబర్",  "value": "963820110000201" },
+      "upi":     { "label": "UPI",          "value": "+91 84080 27242" }
+    }
+  }
+}

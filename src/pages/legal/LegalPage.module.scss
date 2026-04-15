@@ -1,0 +1,50 @@
+// ── Legal Page shared styles
+.legal { min-height:100vh; }
+
+// ── Dark header (matches Contact section style)
+.legal__hero { background:linear-gradient(135deg,#1a0a05,$color-maroon); padding:7rem 2rem 3.5rem; }
+.legal__heroinner { max-width:860px; margin:auto; }
+
+.legal__back { display:flex; width:fit-content; align-items:center; gap:0.4rem; color:rgba(255,255,255,0.55); font-size:0.75rem; font-weight:600; text-decoration:none; margin-bottom:1.8rem; letter-spacing:0.05em; text-transform:uppercase; transition:color 0.2s;
+  &:hover { color:#fff; }
+}
+
+.legal__eyebrow { display:block; width:fit-content; font-size:0.68rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:#FFD700; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); padding:0.35rem 1rem; border-radius:100px; margin-bottom:1rem; }
+
+.legal__title { font-family:$font-display; font-size:clamp(1.8rem,4vw,2.8rem); font-weight:700; color:#fff; margin:0 0 1rem; letter-spacing:0.02em; }
+
+.legal__divider { width:50px; height:3px; background:linear-gradient(90deg,$color-terra,$color-gold); border-radius:2px; }
+
+// ── Content area
+.legal__body { background:$color-cream; padding:4rem 2rem 6rem; }
+.legal__content { max-width:860px; margin:auto; }
+
+.legal__intro { font-size:0.97rem; line-height:1.9; color:#4a3828; margin-bottom:2.5rem; padding:1.5rem 2rem; background:#fff; border-radius:12px; border-left:4px solid $color-terra; box-shadow:0 2px 12px rgba(0,0,0,0.04); }
+
+// ── Section block
+.legal__section { margin-bottom:2rem; padding-bottom:2rem; border-bottom:1px solid rgba($color-terra,0.1);
+  &:last-of-type { border-bottom:none; margin-bottom:0; }
+}
+
+.legal__sechead { display:flex; align-items:baseline; gap:0.75rem; margin-bottom:0.75rem; }
+
+.legal__num { font-family:$font-display; font-size:0.65rem; font-weight:700; color:$color-terra; text-transform:uppercase; letter-spacing:0.15em; white-space:nowrap; background:rgba($color-terra,0.08); padding:0.2rem 0.65rem; border-radius:100px; flex-shrink:0; }
+
+.legal__heading { font-family:$font-display; font-size:1.05rem; font-weight:600; color:$color-maroon; margin:0; line-height:1.35; }
+
+.legal__text { font-size:0.95rem; line-height:1.9; color:#4a3828; margin:0 0 0.6rem; font-weight:400; }
+
+// ── Bullet list
+.legal__list { margin:0.5rem 0 0; padding:0; list-style:none; display:flex; flex-direction:column; gap:0.4rem; }
+
+.legal__item { font-size:0.92rem; line-height:1.7; color:#4a3828; padding:0.45rem 0.9rem 0.45rem 0.9rem; background:#fff; border-radius:8px; border-left:3px solid rgba($color-terra,0.35); display:flex; align-items:flex-start; gap:0.5rem;
+  &::before { content:'–'; color:$color-terra; font-weight:700; flex-shrink:0; margin-top:0.05em; }
+}
+
+// ── Contact footer
+.legal__contact { margin-top:2.5rem; padding:1.2rem 1.5rem; background:#fff; border-radius:12px; font-size:0.88rem; color:$color-muted; box-shadow:0 2px 12px rgba(0,0,0,0.04);
+  strong { color:$color-maroon; font-weight:700; }
+  a { color:$color-terra; text-decoration:none; font-weight:600;
+    &:hover { text-decoration:underline; }
+  }
+}

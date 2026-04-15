@@ -1,0 +1,43 @@
+.navbar {position:fixed; top:0; left:0; right:0; z-index:$z-navbar; height:70px; background:rgba(255,255,255,0.95); backdrop-filter:blur(12px); border-bottom:1px solid rgba($color-maroon,0.08); transition:box-shadow $transition-base, background $transition-base;
+
+  &--scrolled {box-shadow:0 2px 24px rgba($color-maroon,0.1);}
+
+  &__inner {max-width:1280px; margin:0 auto; padding:0 1.5rem; height:100%; display:flex; align-items:center; gap:2rem;}
+
+  &__brand {display:flex; align-items:center; gap:0.6rem; text-decoration:none; flex-shrink:0;}
+
+  &__logo {width:40px; height:40px; object-fit:contain;}
+
+  &__brand-text {display:flex; flex-direction:column; gap:0.1rem;}
+
+  &__brand-name {font-family:$font-display; font-size:0.85rem; font-weight:700; color:$color-maroon; line-height:1.2; letter-spacing:0.02em; text-transform:uppercase;}
+
+  &__brand-tagline {font-size:0.65rem; color:$color-navy; letter-spacing:0.08em; text-transform:uppercase;}
+
+  &__links {display:flex; align-items:center; gap:0.25rem; margin-left:auto; list-style:none; padding:0; margin-right:1rem;
+    @media (max-width:768px) {display:none;}
+  }
+
+  &__link {padding:0.4rem 0.75rem; border-radius:0.5rem; font-size:0.85rem; font-weight:500; color:#444; text-decoration:none; transition:$transition-base; white-space:nowrap;
+    &:hover {color:$color-maroon; background:rgba($color-maroon,0.06);}
+  }
+
+  &__right {display:flex; align-items:center; gap:0.75rem; flex-shrink:0;
+    @media (max-width:768px) {display:none;}
+  }
+
+  &__cta {padding:0.5rem 1.3rem; border-radius:8px; background:$color-terra; color:#fff; font-size:0.82rem; font-weight:600; text-decoration:none; transition:$transition-base; white-space:nowrap;
+    &:hover {background:$color-maroon;}
+  }
+
+  &__hamburger {display:none; flex-direction:column; gap:5px; padding:0.5rem; border:none; background:transparent; cursor:pointer;
+    span {display:block; width:22px; height:2px; background:$color-maroon; border-radius:2px; transition:all $transition-base;}
+    @media (max-width:768px) {display:flex;}
+  }
+
+  &__mobile-menu {position:absolute; top:70px; left:0; right:0; background:#fff; border-bottom:1px solid rgba($color-maroon,0.1); box-shadow:0 8px 24px rgba(0,0,0,0.08); padding:1rem 1.5rem; display:flex; flex-direction:column; gap:0.25rem; animation:slideDown 0.2s ease both;}
+
+  &__mobile-link {padding:0.75rem 1rem; border-radius:0.5rem; font-size:0.95rem; font-weight:500; color:#444; text-decoration:none; transition:all $transition-base;
+    &:hover {color:$color-maroon; background:rgba($color-maroon,0.06);}
+  }
+}

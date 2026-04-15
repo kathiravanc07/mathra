@@ -1,0 +1,25 @@
+// ─── Ticker Strip ─────────────────────────────────────────────────────────────
+// Scrolling announcement bar below the hero section
+
+.ticker-strip {display:flex; align-items:center;color:#fff; height:48px; overflow:hidden; position:relative; z-index:10; background:linear-gradient(90deg, $color-maroon 0%, $color-terra 100%);    
+  
+    // ── Label pill on the left ─────────────────────────────────────────────────
+    &__label {flex-shrink:0; padding:0 1.25rem; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; white-space:nowrap; background:rgba(0, 0, 0, 0.25); height:100%; display:flex; align-items:center; border-right:1px solid rgba(255, 255, 255, 0.2);}
+  
+    // ── Scrolling track ────────────────────────────────────────────────────────
+    &__track {flex:1;overflow:hidden;mask-image:linear-gradient(to right, transparent 0%, black 5%, black 95%,transparent 100%);
+  
+      // Pause on hover
+      &:hover &__list {animation-play-state:paused;}
+    }
+  
+    &__list {display:flex; align-items:center; list-style:none; margin:0; padding:0; width:max-content; animation: ticker 40s linear infinite;
+  
+      &:hover {animation-play-state:paused;}
+    }
+  
+    // ── Single item ────────────────────────────────────────────────────────────
+    &__item {display:flex; align-items:center; gap:0.5rem; padding:0 2rem; font-size:0.85rem; font-weight:500; white-space:nowrap; opacity:0.92; }
+  
+    &__dot {color:$color-gold;font-size:0.6rem;}
+  }

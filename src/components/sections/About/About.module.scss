@@ -1,0 +1,38 @@
+// ── About Section
+.about { background:#fff; padding:5rem 2rem;
+
+  &__container { max-width:1240px; margin:auto; display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center;
+    @media (max-width:768px) { grid-template-columns:1fr; gap:2.5rem; }
+  }
+
+  &__imgside { position:relative; }
+
+  &__frame { border-radius:20px; overflow:hidden; background:linear-gradient(135deg,$color-terra,$color-maroon); padding:3px; }
+  &__frameinner { border-radius:18px; overflow:hidden; background:$color-cream; padding:3rem; text-align:center; }
+  &__frameimg { width:180px; height:180px; border-radius:50%; border:4px solid $color-terra; box-shadow:0 10px 40px rgba($color-terra,0.25); margin:0 auto 1.5rem; display:block; object-fit:contain; }
+  &__quote { font-family:$font-display; font-size:1rem; color:$color-maroon; line-height:1.6; font-weight:500; margin:0; }
+
+  &__badge { position:absolute; background:#fff; border-radius:12px; padding:0.8rem 1.1rem; box-shadow:0 8px 30px rgba(0,0,0,0.12); display:flex; align-items:center; gap:0.6rem; }
+  &__badge--br { bottom:-20px; right:-20px; }
+  &__badge--tl { top:-20px; left:-20px; }
+  &__badgeicon { width:28px; height:28px; display:inline-flex; align-items:center; justify-content:center; color:$color-navy; flex-shrink:0;
+    svg { width:100%; height:100%; }
+  }
+  &__badgetext {
+    strong { display:block; font-size:0.8rem; font-weight:700; color:$color-maroon; }
+    span { font-size:0.7rem; color:$color-muted; }
+  }
+
+  &__content {}
+  &__eyebrow { display:inline-block; font-size:0.68rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:$color-terra; background:rgba($color-terra,0.08); padding:0.35rem 1rem; border-radius:100px; margin-bottom:1rem; }
+  &__title { font-family:$font-display; font-size:clamp(1.6rem,3vw,2.4rem); font-weight:700; color:$color-maroon; text-align:left; margin:0 0 1.2rem; }
+  &__divider { width:50px; height:3px; background:linear-gradient(90deg,$color-terra,$color-gold); border-radius:2px; margin:0 0 1.8rem; }
+  &__para { font-size:0.97rem; line-height:1.9; color:#4a3828; margin-bottom:1rem; font-weight:400;
+    strong { color:$color-terra; font-weight:700; }
+  }
+
+  &__list { display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; margin-top:1.5rem; }
+  &__listitem { display:flex; align-items:center; gap:0.6rem; font-size:0.82rem; font-weight:600; color:$color-text; padding:0.5rem 0.75rem; background:$color-cream; border-radius:8px; border-left:3px solid $color-terra;
+    &::before { content:'✓'; color:$color-terra; font-weight:700; font-size:0.75rem; flex-shrink:0; }
+  }
+}
